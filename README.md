@@ -34,5 +34,21 @@ User stories on function `pandigitalPrime(n)` is taken from [FreeCodeCamp - Codi
 
 The function `pandigitalPrime(n)` returns a number, where n is a number between 4 and 7.
 
+## Features
+
+Alloes the user to enter the number of digits in order to find the largest pandigital prime number of that number of digits.  If there are none, then it will return 0.  Performs checks on valid user input.  If the input is not valid, an error message is displayed.
+
+## Technologies
+
+Uses HTML5, CSS3, JavaScript, Bootstrap 5.2.1 and Google Fonts.
+
+## Testing
+
+Ensure all user stories have been met.
+
+## Deployment
+
+Deployed on [GitHub Pages](https://derektypist.github.io/project-euler-041) at the main branch.
+
 
 
