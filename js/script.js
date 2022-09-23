@@ -21,9 +21,7 @@ function getNumberInfo() {
 
 /*
     Function to Return the maximum pandigital prime of length n
-    If there are none, it will return undefined
     pandigitalPrime(4) returns 4231
-    pandigitalPrime(5) returns undefined
     pandigitalPrime(7) returns 7652413
 */
 function pandigitalPrime(n) {
