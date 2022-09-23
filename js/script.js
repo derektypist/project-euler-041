@@ -29,3 +29,24 @@ function isPrime(num) {
     }
     return PRIMES[num] = true;
 }
+
+// Function to check if number num is pandigital
+function isPandigital(num) {
+    const numAsString = num.toString();
+    return Array(numAsString.length).fill(0).every((_,i) => numAsString.indexOf(i+1) !== -1);
+}
+
+/*
+    Function to Return the maximum pandigital prime of length n
+    If there are none, it will return 0
+    pandigitalPrime(4) returns 4231
+    pandigitalPrime(5) returns 0
+    pandigitalPrime(7) returns 7652413
+*/
+function pandigitalPrime(n) {
+    const upperBound = parseInt(Array(n).fill(0).map((_,i) => n-i).join(""));
+    for (let i=upperBound;i>0;i-=2) {
+        if (isPandigital(i) && isPrime(i)) return i;
+    }
+    return 0;
+}
