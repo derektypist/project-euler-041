@@ -36,7 +36,7 @@ The function `pandigitalPrime(n)` returns a number, where n is a number between 
 
 ## Features
 
-Alloes the user to enter the number of digits in order to find the largest pandigital prime number of that number of digits.  If there are none, then it will return 0.  Performs checks on valid user input.  If the input is not valid, an error message is displayed.
+Allows the user to enter the number of digits in order to find the largest pandigital prime number of that number of digits.  If there are none, then it will return 0.  Performs checks on valid user input.  If the input is not valid, an error message is displayed.
 
 ## Technologies
 
