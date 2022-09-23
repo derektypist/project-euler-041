@@ -49,7 +49,7 @@ function pandigitalPrime(n) {
         if (isPandigital(i) && isPrime(i)) return i;
     }
 
-    return 0;
+   
 }
 
 // Function to Clear Information
