@@ -21,5 +21,24 @@
         <p>We shall say that an n-digit number is pandigital if it makes use of all the digits 1 to n exactly once.  For example, 2143 is a 4-digit pandigital number and is also prime.</p>
         <p>What is the largest n-length digit pandigital prime that exists?  Begin by entering a number.</p>
     </section>
+
+    <!-- Set Up Form -->
+    <section class="container-fluid">
+        <form>
+            <!-- Set Up Label and Input -->
+            <article class="mb-3">
+                <label for="mynumber" class="form-label">Number of Digits (Required)</label>
+                <input class="form-control" title="Enter whole number between 4 and 7 without leading zeros" placeholder="Enter whole number between 4 and 7 without leading zeros" id="mynumber">
+            </article>
+
+            <!-- Set Up and Center Buttons -->
+            <article class="d-grid gap-2 d-flex justify-content-center">
+                <button type="button" class="btn btn-info" onclick="getNumberInfo()">Submit</button>
+                <button type="reset" class="btn btn-warning" onclick="clearInfo()">Reset</button>
+            </article>
+        </form>
+
+        
+    </section>
 </body>
 </html>
