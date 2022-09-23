@@ -48,5 +48,12 @@ function pandigitalPrime(n) {
     for (let i=upperBound;i>0;i-=2) {
         if (isPandigital(i) && isPrime(i)) return i;
     }
+
     return 0;
+}
+
+// Function to Clear Information
+function clearInfo() {
+    let txt = "";
+    document.getElementById("numinfo").innerHTML = txt;
 }
