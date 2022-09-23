@@ -10,7 +10,7 @@ Information at [Project Euler 041](https://projecteuler.net/problem=41)
 
 **Getting Started**
 
-Enter a whole number between 4 and 7, without leading zeros such as 04 and click on the Submit Button.  You will see the largest pandigital prime or 0, unless you have made an invalid input.  Click on the Reset Button to clear the information or to start again.
+Enter a whole number between 4 and 7, without leading zeros such as 04 and click on the Submit Button.  You will see the largest pandigital prime, unless you have made an invalid input.  Click on the Reset Button to clear the information or to start again.
 
 **User Stories**
 
@@ -36,7 +36,7 @@ The function `pandigitalPrime(n)` returns a number, where n is a number between 
 
 ## Features
 
-Allows the user to enter the number of digits in order to find the largest pandigital prime number of that number of digits.  If there are none, then it will return 0.  Performs checks on valid user input.  If the input is not valid, an error message is displayed.
+Allows the user to enter the number of digits in order to find the largest pandigital prime number of that number of digits.  Performs checks on valid user input.  If the input is not valid, an error message is displayed.
 
 ## Technologies
 
