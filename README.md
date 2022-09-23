@@ -8,7 +8,19 @@ Information at [Project Euler 041](https://projecteuler.net/problem=41)
 
 ## UX
 
+**Getting Started**
+
+Enter a whole number between 4 and 7, without leading zeros such as 04 and click on the Submit Button.  You will see the largest pandigital prime or 0, unless you have made an invalid input.  Click on the Reset Button to clear the information or to start again.
+
 **User Stories**
+
+As a user, I get an error message, if I do any of:
+
+- Not enter anything in the input field
+- Entering text other than a number
+- Entering a number less than 4 or greater than 7
+- Including leading zeros such as 04
+- Entering a number, but it is not an integer
 
 As a user, I expect the function `pandigitalPrime(4)` to return a number.
 
@@ -20,7 +32,7 @@ User stories on function `pandigitalPrime(n)` is taken from [FreeCodeCamp - Codi
 
 **Information Architecture**
 
-The function `pandigitalPrime(n)` returns a number, where n is a number.
+The function `pandigitalPrime(n)` returns a number, where n is a number between 4 and 7.
 
 
 
